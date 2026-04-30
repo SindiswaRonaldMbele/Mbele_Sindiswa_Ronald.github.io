@@ -1,0 +1,10 @@
+import '../models/portfolio_item.dart';
+
+class SeedData {
+  static const List<PortfolioItem> starterProjects = [
+    PortfolioItem(id: 'data-analytics-case-study', title: 'Data Analytics Case Study', description: 'A structured placeholder project for cleaning, analysing and presenting data.', longDescription: 'Use this for a full analytics case study with problem, dataset, analysis, visuals, insights and recommendations.', mainCategory: 'Data', subCategory: 'Data Analytics', tags: ['SQL', 'Python', 'Dashboards'], technologies: ['Python', 'Pandas', 'SQL', 'Excel'], status: 'Planned', date: 'Date placeholder', link: 'Project link placeholder'),
+    PortfolioItem(id: 'flutter-admin-portfolio', title: 'Flutter Web Admin Portfolio', description: 'A multi-page interactive portfolio with private admin editing.', longDescription: 'A Flutter Web system with Firebase Auth, Firestore, routing, light/dark mode, category pages and interactive cards.', mainCategory: 'Software Development', subCategory: 'Web Development', tags: ['Flutter', 'Dart', 'Firebase'], technologies: ['Flutter', 'Dart', 'Firebase'], status: 'In Progress', date: '2026', link: 'Project link placeholder'),
+    PortfolioItem(id: 'it-support-documentation', title: 'IT Support Documentation System', description: 'A placeholder IT project for documenting troubleshooting processes.', mainCategory: 'Information Technology', subCategory: 'Technical Support', tags: ['Support', 'Systems', 'Documentation'], technologies: ['Windows', 'Linux', 'Networking'], status: 'Planned', date: 'Date placeholder', link: 'Project link placeholder'),
+    PortfolioItem(id: 'mathematical-modelling-notebook', title: 'Mathematical Modelling Notebook', description: 'A placeholder applied mathematics project for modelling and computation.', mainCategory: 'Mathematics and Modelling', subCategory: 'Mathematical Modelling', tags: ['Modelling', 'Numerical Methods', 'Python'], technologies: ['Python', 'Mathematics'], status: 'Planned', date: 'Date placeholder', link: 'Project link placeholder'),
+  ];
+}
